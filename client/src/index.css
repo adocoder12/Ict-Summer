@@ -1,0 +1,29 @@
+:root {
+  --text-color: #242424;
+  --background: rgba(255, 255, 255, 0.87);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  /*color: var(text-color); */
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--background);
+}
+
+html {
+  font-size: 16px;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,0 +1,59 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 9px;
+  background-color: #457b9d;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.titleWrapper {
+  display: flex;
+  flex-flow: column;
+  place-items: center;
+  gap: 8px;
+}
+.title {
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.text-muted {
+  color: #e8dcdc;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: #457b9d;
+  border: 1px solid #ececec;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #1d3768;
+}
+
+.links {
+  color: #ececec;
+  text-decoration: none;
+  position: relative;
+}
+.links::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  top: 18px;
+  left: 0;
+  width: 0;
+  background: #ececec;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  transition: 0.5s;
+}
+
+.links:hover:after {
+  width: 100%;
+}

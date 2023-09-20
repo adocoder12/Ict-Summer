@@ -1,0 +1,56 @@
+{
+  "hash": "2454a175",
+  "browserHash": "b128827b",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "8c500f33",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "0d786249",
+      "needsInterop": true
+    },
+    "react-bootstrap/Container": {
+      "src": "../../node_modules/react-bootstrap/esm/Container.js",
+      "file": "react-bootstrap_Container.js",
+      "fileHash": "d318834d",
+      "needsInterop": false
+    },
+    "react-bootstrap/Navbar": {
+      "src": "../../node_modules/react-bootstrap/esm/Navbar.js",
+      "file": "react-bootstrap_Navbar.js",
+      "fileHash": "3ed56d63",
+      "needsInterop": false
+    },
+    "react-bootstrap/Form": {
+      "src": "../../node_modules/react-bootstrap/esm/Form.js",
+      "file": "react-bootstrap_Form.js",
+      "fileHash": "7b53c62d",
+      "needsInterop": false
+    },
+    "react-bootstrap/Button": {
+      "src": "../../node_modules/react-bootstrap/esm/Button.js",
+      "file": "react-bootstrap_Button.js",
+      "fileHash": "45f14d26",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-MDIHFEFG": {
+      "file": "chunk-MDIHFEFG.js"
+    },
+    "chunk-2TOCQGG5": {
+      "file": "chunk-2TOCQGG5.js"
+    },
+    "chunk-Z7O4SG5W": {
+      "file": "chunk-Z7O4SG5W.js"
+    },
+    "chunk-L7APZED3": {
+      "file": "chunk-L7APZED3.js"
+    }
+  }
+}

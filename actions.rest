@@ -1,0 +1,13 @@
+@baseurl = http://localhost:8080/users
+@contentType = application/json
+
+###
+POST  @{{baseurl}}
+Content-Type: @{{contentType}}
+{
+    "username":"moii",
+    "email": "mirja@mirja.fi",
+    "password": "45RFgh##@$"
+}
+
+
